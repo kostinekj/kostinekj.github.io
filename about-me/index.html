@@ -8,27 +8,41 @@
     <style>
         * { font-family: Arial; }
 
-         h1, h3 { 
-            background-color: rgb(179, 16, 165);
+         .sep { 
+            background-color: rgb(114, 98, 112);
             color: white;
         }
 
-        h1, h3 {text-align: center;}
+        h4 { color: white}
+
+        .sep {text-align: center;}
+
+        blockquote {text-align: center;}
 
         p, ol, ul, blockquote { color: white;}
 
-        * { background-color: grey;}
+        * { background-color: rgb(177, 165, 165);}
 
-        #all { background-color: grey;}
+        .alignright { float: right; color:black;}
+        .alignleft { float: left; color:black;}
 
+        #okay {text-align: right;
+            background: rgb(114, 98, 112);
+            color: white; 
+            }
         
+        #textbox {color: black;}
     </style>
 </head>
 <body id="all">
-    <h1>Jacob Kostinek</h1>
-    <p id="Email">School Email: <a href="mailto:kostinek.j@stu.janesville.k12.wi.us">kostinek.j@stu.janesville.k12.wi.us</a></p><br> <hr> 
+    <h1 class="sep">Jacob Kostinek</h1>
+    <h4 class="sep" id="Email">Contact Me: <a href="mailto:kostinek.j@stu.janesville.k12.wi.us">kostinek.j@stu.janesville.k12.wi.us</a></h4>
+    <p><a href="#Email">Contact</a> <a href="#About Me">About Me</a> 
+        <a href="#Class Schedule">Class Schedule</a> <a href="#Favorite songs/movies">Favorite Songs/Movies</a> 
+        <a href="#Picture of my Dog">Picture of my Dog</a> <a href="#Favorite Quote">Favorite Quote</a> 
+        <a href="#Interests">Interests</a></p> <hr> 
 
-    <h3 id="About Me">About Me:</h3> 
+    <h3 class="sep" id="About Me">About Me:</h3> 
     <p>I enjoy hanging out with my friends whenever it is decently warm outside, 
         as well as play games with them. My friend group and I usually hang out every week or so 
         doing whatever. One time we were bored so we hiked through a forest following a river.  I am a very 
@@ -36,7 +50,7 @@
         and transferring to WhiteWater to get a degree in Computer Science.
     </p>
 
-    <h3 id="Class Schedule">Class Schedule:</h3> <!--makes div's and id's for each area, make like a glossary-->
+    <h3 class="sep" id="Class Schedule">Class Schedule:</h3> <!--makes div's and id's for each area, make like a glossary-->
     <ol>
         <li>Aerospace Engineer</li>
         <li>Ap Computer Science Principles</li>
@@ -48,35 +62,40 @@
         <li>Apprenticeship</li>
     </ol>
 
-    <h3 id="Favorite songs/movies">Favorite songs/movies:</h3>
+    <h3 class="sep" id="Favorite songs/movies">Favorite songs/movies:</h3>
     <ul>
         <li>Top Gun</li>
-        <li>Vida la Vida</li>
+        <li>Viva la Vida</li>
         <li>Fast and Furious</li>
         <li>Lord of the Rings</li>
         <li>Harry Potter</li>
     </ul>
 
-    <h3 id="Picture of my Dog">Picture of my Dog:</h3>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbAInBPecGwcy15EqjSgbYBRTYZfBcyirKJg:https://www.omlet.us/images/cache/341/512/Dog-Cavalier_King_Charles_Spaniel-A_close_up_of_a_Cavalier_King_Charles_Spaniel%2527s_beautiful_long%252C_soft_ears.jpg&usqp=CAU" alt="Daisy">
+    <h3 id="okay"id="Picture of my Dog">Picture of my Dog:</h3>
+    <img src="https://encrypted-tbn0.
+gstatic.com/images?q=tbn:ANd9GcQbAInBPecG
+wcy15EqjSgbYBRTYZfBcyirKJg:https://www.omlet.us/
+images/cache/341/512/Dog-Cavalier_King_Charles_Spaniel
+-A_close_up_of_a_Cavalier_King_Charles_Spaniel%2527s_beautiful
+_long%252C_soft_ears.jpg&usqp=CAU" alt="Daisy" class="alignright">
 
-    <h3 id="Favorite Quote">Favorite Quote:</h3>
+    <h3 class="sep" id="Favorite Quote">Favorite Quote:</h3>
     <blockquote>"Laziness is nothing more than the habit of resting before 
         you get tired" <br>-Jules Renard
     </blockquote>
 
-    <h3 id="Interests">Interests</h3>
+    <h3 class="sep" id="Interests">Interests</h3>
     <p>Some of my main interests include:</p>
     <ul>
         <li>Riding my bike</li>
         <li>Learning new knowledge</li>
         <li>Playing video games</li>
         <li>Hanging out with friends</li>
-    </ul> <hr>
+    </ul> 
 
-    <h3 id="Glossary">Glossary:</h3>
+    <h3 class="sep" id="Glossary">Glossary:</h3>
     <ul>
-        <li><a href="#Email">Email</a></li>
+        <li><a href="#Email">Contact</a></li>
         <li><a href="#About Me">About Me</a></li>
         <li><a href="#Class Schedule">Class Schedule</a></li>
         <li><a href="#Favorite songs/movies">Favorite Songs/Movies</a></li>
@@ -85,9 +104,8 @@
         <li><a href="#Interests">Interests</a></li>
     </ul>
     <div id="textbox">
-        <p class="alignleft">Text on the left</p>
-        <p float="right">Text on the right</p>
+        <p class="alignleft">Page Before</p>
+        <p class="alignright">Next Page</p>
     </div>
-    <div style="clear: both;"></div>
 </body>
 </html>
