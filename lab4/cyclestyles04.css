@@ -1,0 +1,24 @@
+/*Jacob Kostinek 2/17/2023*/
+body {
+    background-color: #FF9900;
+    color: black;
+    font-family: Calibri, sans-serif;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+.floatleft{
+    float: left;
+    margin-right: 2%;
+}
+.floatright{
+    float: right;
+    margin-left: 2%;
+}
+nav ul{
+    list-style-type: none;
+}
+.boldtext, dt{
+    font-weight: bold;
+}
