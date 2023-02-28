@@ -6,7 +6,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-weight: bold !important;
-    letter-spacing: .25em;
+    letter-spacing: .25em !important;
 }
 h2 {
     text-decoration: underline;
@@ -14,7 +14,7 @@ h2 {
     background-color: #F0F0F0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    letter-spacing: .25em;
+    letter-spacing: .25em !important;
 }
 blockquote {
     background-color:#fafa7e;
