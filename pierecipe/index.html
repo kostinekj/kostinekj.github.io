@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/pie" href="favicon.ico">
 </head>
 <body>
-    
+    <h1>Grandma's Cook Book</h1> <hr>
+    <img src="cook_book.png">
+    <h2>Recipes</h2>
+    <ul>
+        <li><a href="pie.html">Pie Recipe</a></li>
+    </ul> <hr>
+    <h3>Vote For your Favorite Recipe Below:</h3>
+    <form action="#" method="post" id="contactform" 
+         style="text-align: center;" 
+         onsubmit="alert('Not implemented yet');">
+        <div id="fdiv">
+            <label for="myname">Name: <span class="required">*</span></label> <br/>
+            <input type="text" name="myname" id="myname" required> <br/><br/>
+
+            <label for="favorite">Favorite Recipe: <span class="required">*</span></label> <br/>
+            <select name="favorite" id="favorite" required>
+                <option disabled selected value>-- Select an option --</option>
+                <option value="pie">Pie Recipe</option>
+
+            </select> <br/><br/>
+
+            <textarea name="tbody" id="tbody" placeholder="Enter Message..."></textarea> <br/><br/>
+            
+            <input type="submit" value="submit" id="sbutton"/>
+        </div>
+    </form>
 </body>
 </html>
