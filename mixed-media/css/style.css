@@ -3,3 +3,8 @@ table, td, th {
     border-collapse: collapse;
     padding: 10px;
 }
+
+img {
+    width: 75px;
+    height: 75px;
+}
