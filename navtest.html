@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar and Media Queries</title>
+    <style>
+        nav {
+            background-color: green;
+            top: 0;
+            left: 0;
+            width: 100%;
+            position: fixed;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            z-index: 999;
+        }
+
+        nav a {
+            color: greenyellow;
+            font-weight: bold;
+            background: #333;
+            padding: 10px;
+            margin-right: -5px;
+        }
+
+        body {background-color: lightblue; color: black;}
+
+        /* Media query for screens <==992px (~tablet size) */
+        @media screen and (max-width: 992px) {
+            body { background: darkslategray; color: white; }
+            nav a {
+                display: block;        
+                margin-left: -10px;
+                text-align: center;
+                border: 1px solid white;
+            }
+        }
+
+        /* Media query for screens <==600px (~phone size) */
+        @media screen and (max-width: 600px) {
+            body { background-color: darkblue; color: white; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#top">Top</a>
+        <a href="#bot">Bottom</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </nav>
+    <div id="top">
+        <br/><br/>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum dolor quis dui eleifend, nec ullamcorper magna commodo. Duis sit amet eros ac nisi tristique imperdiet in ac risus. Integer nibh orci, consequat at vulputate sit amet, hendrerit eget arcu. Maecenas suscipit pharetra fringilla. Aenean ut nibh id lacus tempor eleifend non in diam. Duis ut scelerisque lorem, at pellentesque erat. Sed molestie turpis eu varius ultricies. Nullam augue quam, euismod eget purus vitae, pellentesque sagittis nisl.
+
+            Pellentesque et arcu facilisis, vulputate elit ac, euismod ante. Maecenas et elementum neque. Mauris vehicula quis dui ut feugiat. Aenean nec lacus tortor. Proin tellus odio, mattis tempus fringilla sagittis, volutpat in dui. Mauris at ultrices enim. Fusce rhoncus, sapien commodo aliquam feugiat, sapien mi mattis nulla, nec mollis enim urna eu ligula. Nullam iaculis mi eu turpis commodo condimentum. Aliquam erat volutpat. Aliquam eu odio metus. Maecenas lacinia convallis turpis eget maximus. Sed eget dignissim purus. In tincidunt diam a semper volutpat. Pellentesque tincidunt tincidunt magna sed varius. Vestibulum cursus condimentum ultrices.
+
+            Vivamus fermentum lacinia odio et congue. Maecenas at pellentesque ipsum. Integer vel sapien varius turpis convallis condimentum ut sagittis eros. Donec eget nulla feugiat, bibendum dolor in, condimentum tortor. Ut eget turpis aliquet, convallis nisi sit amet, efficitur orci. Pellentesque sem libero, pretium id urna vel, malesuada malesuada enim. Suspendisse potenti. Donec varius dapibus ante, vitae porttitor tellus. Praesent gravida, nibh sed finibus tristique, turpis sem rhoncus tortor, ac viverra nulla tellus id dolor. Integer congue lorem sem, id accumsan leo tincidunt et. Pellentesque quis rutrum nisl.
+
+            Nam in nisl non ex fermentum sodales ac sed tortor. Praesent vehicula vel felis eu imperdiet. Nulla consequat porta justo, in semper ipsum euismod sit amet. Maecenas id dignissim lacus. Vivamus felis purus, ullamcorper in efficitur ac, convallis et sem. Suspendisse non nisi luctus, pretium turpis vitae, auctor elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur vitae pretium tortor. Nullam vulputate turpis vitae mi finibus, vitae ultrices dolor consequat. Nullam eget dolor non neque gravida facilisis ac rutrum risus. Sed ut pulvinar felis. Sed tristique volutpat lacus eget dapibus. Integer lacinia accumsan ligula id cursus. Curabitur imperdiet hendrerit tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+            Proin in ipsum in turpis ullamcorper ultricies non vitae tortor. Nam eu pretium velit. Nulla et leo nec dolor pulvinar efficitur sit amet id libero. Nunc dignissim odio elit, quis auctor nisi ultricies nec. Sed quis posuere eros, at luctus metus. Quisque sed leo aliquam, lacinia lectus at, imperdiet nulla. Aliquam eget viverra leo. Mauris quis lacinia tellus, sed convallis velit. Nunc id lectus quis lorem fringilla molestie.
+        </p>
+    </div>
+    <div id="bot">
+        <b>This is the bottom of the page!</b>
+    </div>
+</body>
+</html>
