@@ -1,5 +1,5 @@
 table, td, th {
-    border: 1px solid black;
+    border: 2px solid black;
     border-collapse: collapse;
     padding: 10px;
     background-color: rgb(188, 236, 220);
@@ -11,8 +11,8 @@ table {
 }
 
 img {
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
 }
 
 img, video {
@@ -40,6 +40,7 @@ div {
     border-radius: 50px;
     width: 450px;
     margin: auto;
+    border: 2px solid black;
 }
 
 h2 {
