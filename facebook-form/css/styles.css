@@ -1,3 +1,65 @@
 form {
     background-color: #edf0f5;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    min-width: 410px;
+    max-width: 410px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+#submit {
+    background-color: #659d50;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h1 {
+    margin-bottom: -10px;
+}
+
+#firstname, #lastname, #reemail {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#password {
+    margin-bottom: 10px;
+}
+
+#day, #month, #year {
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 15px;
+}
+
+#footer {
+    font-size: 13px;
+}
+
+* {
+    vertical-align: auto;
+    font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+#email, #reemail, #password {
+    width: 98%;
+}
+
+#firstname {
+    width: 47%;
+}
+
+#lastname {
+    float: right;
+    width: 47%;
 }
