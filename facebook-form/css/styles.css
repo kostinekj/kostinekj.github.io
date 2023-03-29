@@ -63,3 +63,11 @@ input {
     float: right;
     width: 47%;
 }
+
+#question {
+    font-size: 10px;
+    color: rgb(34, 114, 141);
+    display: block;
+    float: right;
+    margin-right: 85px;
+}
