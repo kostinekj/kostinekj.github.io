@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div id="test">
     <form>
         <h1>Sign Up</h1>
         <p>It's free and always will be.</p>
@@ -17,21 +18,21 @@
         <input type="email" name="reemail" id="reemail" required placeholder="Re-enter Email" maxlength="100"><br>
         <input type="password" name="password" id="password" required placeholder="New Password" maxlength="100"> <br>
         <label for="birthday">Birthday </label> <br/>
-        <select name="birthday" id="birthday">
+        <select name="month" id="month">
             <!--Months-->
-            <option disabled selected value>Month</option>
-            <option value="January">January</option>
-            <option value="February">February</option>
-            <option value="March">March</option>
-            <option value="April">April</option>
+            <option disabled selected value><span id="bold">Month</span></option>
+            <option value="January">Jan</option>
+            <option value="February">Feb</option>
+            <option value="March">Mar</option>
+            <option value="April">Apr</option>
             <option value="May">May</option>
             <option value="June">June</option>
             <option value="July">July</option>
-            <option value="August">August</option>
-            <option value="September">September</option>
-            <option value="October">October</option>
-            <option value="November">November</option>
-            <option value="December">December</option>
+            <option value="August">Aug</option>
+            <option value="September">Sept</option>
+            <option value="October">Oct</option>
+            <option value="November">Nov</option>
+            <option value="December">Dec</option>
         </select>
         <select name="day" id="day">
             <!--Days-->
@@ -197,7 +198,7 @@
             <option value="2024">2024</option>
 
 
-        </select> <span id="question">Why do I need to provide <br> my birthday?</span><br>
+        </select> <span id="question"><a href="#">Why do I need to provide <br> my birthday?</a></span><br>
         <input type="radio" name="female" id="female" value="female">
         <label for="female" class="female">Female</label>
         <input type="radio" name="male" id="male" value="male">
@@ -207,5 +208,6 @@
         <input type="button" name="submit" id="submit" value="Sign Up">
 
     </form>
+    </div>
 </body>
 </html>
