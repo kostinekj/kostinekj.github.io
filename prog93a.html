@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog93a</title>
+</head>
+<body>
+    <label for="kwh">Enter KWH Used: </label>
+    <input type="number" id="kwh" name="kwh"><br/>
+    <button onclick="calculate();">Calculate</button>
+    <p>C O M P S C I</p> <hr>
+    <p id="output"></p> <hr>
+    <p id="outputt"></p>
+
+    <script>
+        function calculate() {
+            var kwh = Number(document.getElementById("kwh").value);
+            var baserate = kwh * .0475;
+            var surcharge = .10 * baserate;
+            var citytax = .3 * baserate;
+            var total = baserate + surcharge + citytax;
+            var latetotal = total * .04 + total;
+
+
+            var out = document.getElementById("output");
+            out.innerText = "Kilowatts Used: " + kwh;
+
+            var out = document.getElementById("outputt");
+            out.innerText = "Base Rate " + kwh + " @ $0.0475   $" +  baserate.toFixed(2); 
+        }
+    </script>
+</body>
+</html>
