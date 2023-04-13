@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prog93a</title>
+    <style>
+        form {
+            border-style: solid black;
+        }
+    </style>
 </head>
 <body>
     <label for="kwh">Enter KWH Used: </label>
@@ -12,14 +17,18 @@
     <button onclick="calculate();">Calculate</button>
     <p>C O M P S C I</p> <hr>
     <p id="output"></p> <hr>
-    <p id="outputt"></p>
+    <form id="test"><p id="outputt"></p>
+    <p id="outputtt"></p>
+    <p id="outputttt"></p> <hr>
+    <p id="outputtttt"></p>
+    <p id="outputttttt"></p></form>
 
     <script>
         function calculate() {
             var kwh = Number(document.getElementById("kwh").value);
             var baserate = kwh * .0475;
             var surcharge = .10 * baserate;
-            var citytax = .3 * baserate;
+            var citytax = .03 * baserate;
             var total = baserate + surcharge + citytax;
             var latetotal = total * .04 + total;
 
@@ -28,7 +37,19 @@
             out.innerText = "Kilowatts Used: " + kwh;
 
             var out = document.getElementById("outputt");
-            out.innerText = "Base Rate " + kwh + " @ $0.0475   $" +  baserate.toFixed(2); 
+            out.innerText = "Base Rate " + kwh + " @ $0.0475   $" +  baserate.toFixed(2);
+
+            var out = document.getElementById("outputtt");
+            out.innerText = "Surcharge: $" + surcharge.toFixed(2);
+
+            var out = document.getElementById("outputttt");
+            out.innerText = "Citytax: $" + citytax.toFixed(2);
+
+            var out = document.getElementById("outputtttt");
+            out.innerText = "Pay this amount: $" + total.toFixed(2);
+
+            var out = document.getElementById("outputttttt");
+            out.innerText = "After May 20th Pay: $" + latetotal.toFixed(2);
         }
     </script>
 </body>
