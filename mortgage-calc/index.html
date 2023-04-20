@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Balance Calculator</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <label for="principal">Principal: </label>
+    <input type="number" id="principal" name="principal"> <br>
+
+    <label for="rate">Interest Rate: </label>
+    <input type="number" id="rate" name="rate"> <br>
+
+    <label for="years">Number of Years: </label>
+    <input type="number" id="years" name="years"> <br>
+
+    <label for="monthly">Monthly Payment: </label>
+    <input type="number" id="monthly" name="monthly"> <br>
+
+    <p id="output"></p>
+
+    <button onclick="calc();">Calculate</button>
+    <button onclick="reset();">Reset</button>
+</body>
+</html>
