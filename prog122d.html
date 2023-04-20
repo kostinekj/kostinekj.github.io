@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog122d</title>
+</head>
+<body>
+    <p id="out"></p>
+    <script>
+        var output = "";
+        for (var col1 = -12; col1 <= 16; col1 += 1) {
+            var col2 = col1**6 - 3 * col1**5 - 93 * col1**4 + 87 * col1**3 + 1596 * col1**2 - 1380 * col1 - 2800;
+            output += col1 + " &emsp; " + col2 + "<br>";
+        }
+        document.getElementById("out").innerHTML = output;
+    </script>
+</body>
+</html>
