@@ -1,13 +1,12 @@
 function calc() {
-    var principal = Number(document.getElementById("principal").value);
-    var rate = Number(document.getElementById("rate").value);
-    var years = Number(document.getElementById("years").value);
-    var monthly = Number(document.getElementById("monthly").value);
-    var N = 12;
-    var j = (1 + rate/12)**(12*years);
-    var output = principal * j - (monthly(j-1)) / (rate/12);
+    var P = Number(document.getElementById("principal").value);
+    var R = Number(document.getElementById("rate").value);
+    var Y = Number(document.getElementById("years").value);
+    var M = Number(document.getElementById("monthly").value);
+    var J = 12;
+    var output = P*(1+(R/J))**(J*Y) - (M*((1+(R/J))**(J*Y)-1))/(R/J);
 
-    document.getElementById("output").innerHTML = output;
+    document.getElementById("output").innerHTML = "$" + output.toFixed(2);
 
 }
 
