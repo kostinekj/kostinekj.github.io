@@ -6,7 +6,7 @@ function calc() {
     var J = 12;
     var output = P*(1+(R/J))**(J*Y) - (M*((1+(R/J))**(J*Y)-1))/(R/J);
 
-    document.getElementById("output").innerHTML = "$" + output.toFixed(2);
+    document.getElementById("output").innerHTML = "Your total is $" + output.toFixed(2);
 
 }
 
