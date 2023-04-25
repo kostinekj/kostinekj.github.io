@@ -1,12 +1,12 @@
 function calc() {
     var P = Number(document.getElementById("principal").value);
     var R = Number(document.getElementById("rate").value);
-    var Y = Number(document.getElementById("years").value);
+    var T = Number(document.getElementById("years").value);
     var M = Number(document.getElementById("monthly").value);
-    var J = 12;
-    var output = P*(1+(R/J))**(J*Y) - (M*((1+(R/J))**(J*Y)-1))/(R/J);
+    var N = 12;
+    var B = P*(1+(R/N))**(N*T) - (M*((1+(R/N))**(N*T)-1))/(R/N);
 
-    document.getElementById("output").innerHTML = "Your total is $" + output.toFixed(2);
+    document.getElementById("output").innerHTML = "Your total is $" + B.toFixed(2);
 
 }
 
