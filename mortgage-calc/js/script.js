@@ -10,7 +10,7 @@ function calc() {
         document.getElementById("output").innerHTML = "Bro enter stuff, you wack";
     }
     else if (B<0) {
-        document.getElementById("output").innerHTML = "I'm giving you money!!!";
+        document.getElementById("output").innerHTML = "I'm giving you money!!! Cuz this is negative";
     }
     else {
         document.getElementById("output").innerHTML = "Your total is $" + B.toFixed(2);
