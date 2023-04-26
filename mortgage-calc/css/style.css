@@ -1,32 +1,29 @@
-td {
-    padding: 2%;
+*{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-#calc {
-    background-color: rgb(84, 216, 84);
-}
-
-#reset {
-    background-color: yellow;
-}
-
-input {
-    min-width: 100px;
-    max-width: 100px;
-}
-
-table {
-    margin: auto;
-    width: 70%;
-    padding: 10px;
-    min-width: 410px;
-    max-width: 410px;
-    display: block;
+label{
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    width:200px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-body {
-    background-color: aquamarine;
-    margin: 25%;
+input{
+    text-align: right;
+    border-radius: 3px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px;
+}
+
+button{
+    border-color: black;
+    border-width: 1px;
+    background-color: rgb(156, 156, 252);
+    width: 100px;
+    height: 23px;
+    font-size: 17px;
 }
