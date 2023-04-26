@@ -6,7 +6,15 @@ function calc() {
     var N = 12;
     var B = P*(1+(R/N))**(N*T) - (M*((1+(R/N))**(N*T)-1))/(R/N);
 
-    document.getElementById("output").innerHTML = "Your total is $" + B.toFixed(2);
+    if (isNaN(B)) {
+        document.getElementById("output").innerHTML = "Bro enter stuff, you wack";
+    }
+    else if (B<0) {
+        document.getElementById("output").innerHTML = "I'm giving you money!!!";
+    }
+    else {
+        document.getElementById("output").innerHTML = "Your total is $" + B.toFixed(2);
+    }
 
 }
 
