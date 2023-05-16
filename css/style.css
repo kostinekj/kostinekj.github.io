@@ -1,10 +1,11 @@
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: grey;
+    background-color: #ffffff;
+    color: #041a0d;
 }
 
 nav {
-    background-color: rgb(103, 105, 103);
+    background-color: #73e7a2;
     top: 0;
     left: 0;
     width: 100%;
@@ -14,17 +15,17 @@ nav {
 }
 
 nav a {
-    color: rgb(243, 89, 243);
+    color: #041a0d;
     font-weight: bold;
-    background: rgb(92, 92, 92);
+    background: #73e7a2;
     padding: 10px;
     text-align: center;
     margin: 15px;
 }
 
 a:hover {
-    color: rgb(155, 31, 180);
-    background: rgb(180, 179, 179);
+    color: #041a0d;
+    background: #e9fbf0;
     text-decoration: underline;
 }
 
@@ -33,12 +34,41 @@ a:hover {
 }
 
 #name {
-    background: lightgray;
+    background: #89ebb0;
     padding: 50px;
     padding-right: 80px;
     margin-top: 50px;
+    margin-left: 150px;
     text-align: center;
     width: 130px;
     border-radius: 20px;
     font-size: 40px;
+    border: 50px solid #d3ffe5;
+}
+
+#shortcuts {
+    background: #89ebb0;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 110px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 50px solid #d3ffe5;
+}
+
+#group {
+    background-color: #d3ffe5;
+    margin-top: 47px;
+    border-radius: 20px;
+    padding: 60px;
+    width: 400px;
+}
+
+#image {
+    float: right;
+    width: 700px;
+    height: 700px;
+    margin-top: -50px;
 }
