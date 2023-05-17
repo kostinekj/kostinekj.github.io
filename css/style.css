@@ -70,5 +70,61 @@ a:hover {
     float: right;
     width: 700px;
     height: 700px;
-    margin-top: -50px;
+    margin-top: 0px;
+}
+
+#interests {
+    background: #89ebb0;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 110px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+
+    margin-top: 200px;
+    width: 80%;
+}
+
+#work {
+    background: #89ebb0;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 110px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+
+    margin-top: 40px;
+    width: 80%;
+}
+
+#contactform {
+    background: #89ebb0;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 110px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+
+    margin-top: 40px;
+    width: 80%;
+}
+
+footer {
+    background-color: #73e7a2;
+    left: 0;
+    width: 99.999999%;
+    padding: 10px;
+    margin-top: 40px;
+    bottom: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    display: flex;
+}
+
+#connect {
+    float: right;
 }
