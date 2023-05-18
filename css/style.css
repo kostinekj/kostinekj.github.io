@@ -1,7 +1,5 @@
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #ffffff;
-    color: #041a0d;
 }
 
 nav {
@@ -112,19 +110,64 @@ a:hover {
     width: 80%;
 }
 
-footer {
-    background-color: #73e7a2;
-    left: 0;
-    width: 99.999999%;
-    padding: 10px;
-    margin-top: 40px;
-    bottom: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
+.footer {
+    margin-top: 150px;
+    width: auto;
+    padding: 40px;
+    background: #89ebb0;
+    color: #000000;
     display: flex;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 50px;
 }
 
-#connect {
-    float: right;
+.footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 10px;
+}
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons {
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
 }
