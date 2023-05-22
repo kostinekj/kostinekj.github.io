@@ -65,10 +65,14 @@ a:hover {
 }
 
 #image {
-    float: right;
-    width: 700px;
-    height: 700px;
+    background-image: url("IMG_3429 (2).jpg");
+    width: 99%;
+    height: -1000px;
     margin-top: 0px;
+    top: 0;
+    left: 0;
+    margin-left: .5%;
+
 }
 
 #interests {
@@ -98,7 +102,7 @@ a:hover {
 }
 
 #contactform {
-    background: #89ebb0;
+    background: #89ebb0 !important;
     padding: 20px;
     margin-top: 0px;
     margin-left: 110px;
@@ -114,7 +118,7 @@ a:hover {
     margin-top: 150px;
     width: auto;
     padding: 40px;
-    background: #89ebb0;
+    background: #89ebb0 !important;
     color: #000000;
     display: flex;
     left: 0;
