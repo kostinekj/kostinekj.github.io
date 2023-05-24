@@ -2,8 +2,13 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 nav {
-    background-color: #73e7a2;
+    background-color: #0099CC;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,7 +20,7 @@ nav {
 nav a {
     color: #041a0d;
     font-weight: bold;
-    background: #73e7a2;
+    background: #0099CC;
     padding: 10px;
     text-align: center;
     margin: 15px;
@@ -23,7 +28,7 @@ nav a {
 
 a:hover {
     color: #041a0d;
-    background: #e9fbf0;
+    background: #CCFFCC;
     text-decoration: underline;
 }
 
@@ -65,33 +70,33 @@ a:hover {
 }
 
 #image {
-    background-image: url("..//1.jpg");
+    background-image: url("..//2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 99%;
-    height: -1000px;
-    margin-top: 4%;
+    width: 98.79vw;
+    height: 53vw;
+    margin-top: -1%;
     top: 0;
     left: 0;
-    margin-left: .5%;
-    border: solid 3px black;
+    margin-left: ;
+    border-bottom: ;
 
 }
 
 #interests {
-    background: #89ebb0;
+    background: #66CCFF;
     padding: 20px;
     margin-left: 110px;
     width: 300px;
     border-radius: 20px;
     font-size: 20px;
 
-    margin-top: 70px;
+    margin-top: 90px;
     width: 80%;
 }
 
 #work {
-    background: #89ebb0;
+    background: #66CCFF;
     padding: 20px;
     margin-top: 0px;
     margin-left: 110px;
@@ -104,7 +109,7 @@ a:hover {
 }
 
 #contactform {
-    background: #89ebb0 !important;
+    background: #66CCFF !important;
     padding: 20px;
     margin-top: 0px;
     margin-left: 110px;
@@ -120,7 +125,7 @@ a:hover {
     margin-top: 150px;
     width: auto;
     padding: 40px;
-    background: #89ebb0 !important;
+    background: #66CCFF !important;
     color: #000000;
     display: flex;
     left: 0;
@@ -172,7 +177,7 @@ form button {
 
 form button:hover {
     color: #041a0d;
-    background: #e9fbf0;
+    background: #CCFFCC;
     text-decoration: underline;
 }
 .social-icons {
@@ -195,7 +200,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     color: #041a0d;
-    background: #e9fbf0;
+    background: #CCFFCC;
     text-decoration: underline;
 }
 
