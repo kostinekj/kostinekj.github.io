@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: #0099CC;
+    background-color: #003399;
     top: 0;
     left: 0;
     width: 100%;
@@ -18,9 +18,9 @@ nav {
 }
 
 nav a {
-    color: #041a0d;
+    color: #84d6ff;
     font-weight: bold;
-    background: #0099CC;
+    background: 003399;
     padding: 10px;
     text-align: center;
     margin: 15px;
@@ -220,3 +220,22 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+#about-firstimage{
+    margin-right: 30%;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 6%;
+}
+
+#about-firstsection {
+    background-color:#84d6ff;
+    max-width: 40vw;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 7%;
+    margin-left: 6%;
+}
