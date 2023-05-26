@@ -132,6 +132,7 @@ a:hover {
     top: 0;
     bottom: 0;
     border-radius: 50px;
+    float: bottom;
 }
 
 .footer div {
@@ -221,10 +222,7 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-#about-firstimage{
-    margin-right: 30%;
-    display: flex;
-}
+/* about page */
 
 h1 {
     text-align: center;
@@ -237,5 +235,64 @@ h1 {
     padding: 10px;
     border-radius: 20px;
     margin-top: 7%;
-    margin-left: 6%;
+    margin-left: 23%;
+    float: left;
+}
+
+#about-firstimage{
+    margin-right: 30%;
+    display: flex;
+    float: right;
+}
+
+#about-secondsection {
+    background-color:#84d6ff;
+    max-width: 40vw;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 16%;
+    margin-right: 25%;
+    float: right;
+}
+
+#about-secondimage{
+    margin-left: 25%;
+    display: flex;
+    float: left;
+    margin-top: 12%;
+    max-width: 20%;
+}
+
+#about-thirdsection {
+    background-color:#84d6ff;
+    max-width: 40vw;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 18%;
+    margin-right: 27%;
+    margin-left: 20%;
+    float: left;
+}
+
+#about-thirdimage{
+    margin-right: 30%;
+    margin-top: -10%;
+    float: right;
+}
+
+#about-forthsection {
+    background-color:#84d6ff;
+    max-width: 40vw;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 17%;
+    margin-right: 20%;
+    float: right;
+}
+
+#about-forthimage{
+    margin-left: 30%;
+    display: flex;
+    float: left;
+    margin-top: 19%;
 }
