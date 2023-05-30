@@ -66,10 +66,38 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
         
-            <input type="submit" value="Submit">
+            <!--<button type="submit" value="submit" class="btn">Submit</button> -->
         
           </form>
     </div>
+    <button type="submit" class="btn" id="showdialog" onclick="openPopup()">Submit</button>
+    <dialog open class="popup" id="popup">
+        <h2> Thank You!</h2>
+        <p>Your details has been successfully submitted. Thanks!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </dialog>
+    <dialog id="favDialog">
+        <form>
+          <p>
+            <label>Favorite animal:
+              <select>
+                <option value="default">Choose…</option>
+                <option>Brine shrimp</option>
+                <option>Red panda</option>
+                <option>Spider monkey</option>
+              </select>
+            </label>
+          </p>
+          <div>
+            <button value="cancel" formmethod="dialog">Cancel</button>
+            <button id="confirmBtn" value="default">Confirm</button>
+          </div>
+        </form>
+      </dialog>
+      <p>
+        <button id="showDialog">Show the dialog</button>
+      </p>
+      <output></output>
     <div class="footer" id="footer">
         <div class="col-1">
             <h3>USEFUL LINKS</h3>
