@@ -340,3 +340,18 @@ h1 {
     top: 50%;
     transform: translate(-50%,-50%) scale(1);
 }
+#showDialog {
+    width: 25%;
+    margin-top: 0px;
+    padding: 10px 0;
+    background-color: #6fd649;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-left: 36%;
+    margin-right: 50%;
+}
