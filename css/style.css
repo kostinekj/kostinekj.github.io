@@ -357,7 +357,6 @@ h1 {
 }
 
 table, td, th {
-    border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
 }
@@ -367,10 +366,13 @@ td {
 }
 #calcwars {
     max-width: 30%;
+    width: 30%;
 }
 
 #statefbla {
     max-width: 30%;
+    transform: rotate(270deg);
+    margin-left: 15%;
 }
 
 #nationalsdeca {
