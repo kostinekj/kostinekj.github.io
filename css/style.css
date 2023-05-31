@@ -366,5 +366,17 @@ td {
     background: rgb(223, 238, 243);
 }
 #calcwars {
-    max-width: 20%;
+    max-width: 30%;
+}
+
+#statefbla {
+    max-width: 30%;
+}
+
+#nationalsdeca {
+    max-width: 30%;
+}
+
+#song {
+    max-width: 30%;
 }
